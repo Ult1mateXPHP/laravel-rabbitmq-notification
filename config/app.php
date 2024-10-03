@@ -123,4 +123,12 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'rabbitmq' => [
+        'host' => env('RABBITMQ_HOST'),
+        'port' => env('RABBITMQ_PORT'),
+        'user' => env('RABBITMQ_USER'),
+        'passwd' => env('RABBITMQ_PASSWORD'),
+        'vhost' => env('RABBITMQ_VHOST'),
+    ]
+
 ];
